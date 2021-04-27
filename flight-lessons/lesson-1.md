@@ -17,12 +17,14 @@ https://wiki.masterarms.se/index.php?title=Comms#Common_Radio_Procedures
 
 ## Takeoff procedures
 
+https://www.digitalcombatsimulator.com/en/files/3313564/
+
 * Find rotation speed and mil/AB suitability
-* Brief group on takeoff procedure
+* Brief group on takeoff procedure incl throttle setting & rot. speed
 * Separated takeoff or...
 * Formation takeoff
+* Rotate 10 degrees above horizon
 ** "Breaks, breaks, breaks"
-** "Rotate, up(?), go"
 ** "Gear, up, go"
 
 ## Formation flying, formations and formation changes
@@ -34,8 +36,8 @@ https://youtu.be/RlwugnVrA44
 * How to position yourself
 * How to switch position
 * "Echelon left, Go!"
-* "Finger four left, Go!"
-
+* "Finger-four left, Go!"
+* "1 mile trail, Go!"
 
 ## Approach, overhead break & landning incl comms
 
@@ -46,4 +48,6 @@ https://wiki.masterarms.se/index.php?title=F-16C_Viper_Syllabus#Landing
 https://www.youtube.com/watch?v=9uF2Bhq2AV0
 
 * Overhead break clearance
+* IMPORTANT: Visual contact during break pattern
 * Landing clearance -> given to lead but applies to whole group
+* Aerobrake with nose 12 degrees above horizon
