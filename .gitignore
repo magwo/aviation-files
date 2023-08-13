@@ -1,3 +1,5 @@
+*.zip
+.DS_Store
 fighter-emojis/*.png
 fighter-emojis/*.jpg
 formations/*.png
