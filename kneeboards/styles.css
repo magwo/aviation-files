@@ -30,6 +30,9 @@ body {
 h1, h2, h3, p, pre {
     margin: 0.1em 0;
 }
+h1:not(:first-child), h2:not(:first-child), h3:not(:first-child) {
+    margin-top: 0.3em;
+}
 
 h1 {
     font-size: 1.3rem;
@@ -44,8 +47,8 @@ h2 {
     color: var(--heading-color-secondary);
 }
 h3 {
-    font-size: 1.08rem;
-    font-weight: 500;
+    font-size: 1.0rem;
+    font-weight: 900;
     color: var(--heading-color-secondary);
 }
 
@@ -101,15 +104,35 @@ pre {
 }
 
 section {
+    position: relative;
     margin-left: var(--backround-overflow);
     margin-right: var(--backround-overflow);
     padding: 1px calc(-1 * var(--backround-overflow)) 3px calc(-1 * var(--backround-overflow));
     border-radius: 6px;
     background-color: #1b1b1b;
+    z-index: 0;
 }
 section:not(:last-child) {
     margin-bottom: var(--section-separation);
 }
+
+section:before {
+    content: "";
+    display: block;
+    border-radius: 6px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.07;
+    
+    background-size: cover;
+    background-position: 50% 70%; 
+    background-repeat: none;
+    filter: sepia(100%) contrast(175%);
+  }
 
 section.emphasized {
     background-color: #1f1f1b;
