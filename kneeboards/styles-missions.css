@@ -1,0 +1,15 @@
+section.cap:before {
+    background-image: url('images/f-16_cap.jpg');
+}
+section.escort:before {
+    background-image: url('images/f-16_escort.jpg');
+}
+section.strike:before {
+    background-image: url('images/f-16_strike.jpg');
+}
+section.sead:before {
+    background-image: url('images/f-16_sead.jpg');
+}
+section.cas:before {
+    background-image: url('images/f-16_cas.jpg');
+}
