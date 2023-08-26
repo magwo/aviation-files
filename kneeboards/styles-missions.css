@@ -14,8 +14,12 @@ section.cas:before {
     background-image: url('images/f-16_cas.jpg');
 }
 
+section.brevity p {
+    display: flex;
+}
 section.brevity p span {
+    display: inline-block;
     font-size: 12px;
     color: #f0f;
-    margin-right: 1em;
+    margin-right: 0.5em;
 }
