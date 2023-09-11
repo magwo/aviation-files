@@ -1,5 +1,5 @@
 * {
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
 
 html {
@@ -7,6 +7,7 @@ html {
     --heading-color-main: #f9f9f9;
     --heading-color-secondary: #00ab44;
     --text-color: #d9ead3;
+    --text-color-subtle: #b9cab3;
     --divider-color: #57BA86;
     --backround-overflow: -6px;
     --section-separation: 4px;
@@ -71,6 +72,34 @@ ul {
     padding-left: 1.5em;
 }
 
+dl {
+    margin: 0.3em 0;
+}
+
+dl > div {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+dl .dots {
+    display: block;
+    border-bottom: 2px dotted var(--text-color-subtle);
+    flex: 1;
+    height: 0.8em;
+    margin: 0 4px;
+}
+
+dl dt {
+    margin: 0;
+    font-weight: 600;
+}
+
+dl dd {
+    margin: 0;
+}
+
 [hidden] {
     display: none;
 }
@@ -112,6 +141,10 @@ ul {
     display: flex;
     flex-direction: column;
     /* background-color: #333; */
+}
+
+.text-subtle {
+    color: var(--text-color-subtle);
 }
 
 section {
@@ -166,6 +199,7 @@ section.blank {
         rgba(255, 255, 255, 0.06) 20px
     );
 }
+
 section.blank p {
     opacity: 0.3;
 }
