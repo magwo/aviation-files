@@ -1,8 +1,8 @@
 <template>
     <style>
         html {
-            --heading-color-secondary: #69f;
-            --divider-color: #69f;
+            --heading-color-secondary: hsl(100, 46%, 56%);
+            --divider-color: hsl(100, 46%, 56%);
         }
     </style>
     <div class="header">
@@ -17,25 +17,23 @@
         <div class="two-columns-column">
             <section class="general">
                 <h2>General</h2>
-                <p>Have a gameplan</p>
+                <p>Have a <strong>gameplan</strong> (see simple gameplans below)</p>
                 <p>Communicate gameplan to members and AWACS</p>
-                <p>Study+brief bullseye geographical location</p>
-                <p>Study important locations/waypoints</p>
+                <p>Study+brief bullseye <strong>geographical</strong> location</p>
+                <p><strong>Study</strong> important locations/waypoints</p>
                 <p>Who leads if FL is MIA/KIA?</p>
-                <p>Know wingmen's limitations - comms, a/a refuel, experience etc</p>
-                <p>Have contingency plans - direction to fly if poor SA etc</p>
-                <p>Have a fuel plan and correct bingo/joker</p>
-                <p>Prefer sorting targets using south/west/east/north and target altitudes</p>
-                <p>Avoid sorting targets using left/right/front/back, since it tends to only work in the start of an engagement</p>
+                <p>Know <strong>wingmen's limitations</strong> - comms, a/a refuel, SA, experience etc</p>
+                <p>Have contingency plans. For example direction to fly if poor SA</p>
+                <p>Have a <strong>fuel plan</strong> and correct <strong>bingo</strong>/joker</p>
             </section>
             <section class="cap">
                 <h2>CAP tasking</h2>
-                <p>If VMC: Use altitude separation for elements.</p>
-                <p>If IMC: Use altitude separation for all wingmen.</p>
-                <p>Maintain sufficient airspeed for maneuvering and quick reactions. Suggest M 0.85+</p>
+                <p>If VMC: Use altitude separation for <strong>elements</strong>.</p>
+                <p>If IMC: Use altitude separation for <strong>all wingmen</strong>.</p>
                 <h3>BARCAP specific</h3>
                 <p>Station between threat source and defended location.</p>
                 <p>Have two layers of BARCAP if possible.</p>
+                <p>Be aggressive but also disengage promptly if dragged.</p>
                 <h3>TARCAP specific</h3>
                 <p>Don't station too close to unpredictable threat sources such as airfields and mountain ranges</p>
                 <p>Don't station too far from the AO</p>
@@ -43,44 +41,68 @@
 
                 <h3>Simple gameplan 2-ship</h3>
                 <p>20 NM trail co-rotating racetrack, hot leg in threat direction.</p>
-                <p>Engage in trail, take turns for shots. Whenever possible, shoot at all hostiles. Better winchester than dead.</p>
+                <p>Engage in trail, alternating shooter/cover. Take turns for shots. Whenever possible, shoot at all hostiles. Better winchester than dead.</p>
                 <p>Make sure cold wingman doesn't turn hot too soon as it can result in a defensive disadvantage.</p>
 
                 <h3>Simple gameplan 4-ship</h3>
-                <p>20 NM trail co-rotating racetrack with cross turns or hook turns (rookie friendly), hot leg in threat direction.</p>
+                <p>20 NM trail racetrack with cross turns or hook turns (rookie friendly), hot leg in threat direction. Each element flies abreast on legs.</p>
                 <p>Engage in box 20x5 NM, elements take turns for shots.</p>
                 <p>Make sure cold element doesn't turn hot too soon as it can result in a defensive disadvantage.</p>
             </section>
 
-        </div>
-        <div class="two-columns-column">
-            <section class="sweep">
-                <h2>Sweep tasking</h2>
-                <p class="text-subtle">
-                    This section intentionally blank
-                </p>
-            </section>
-
             <section class="escort">
                 <h2>Escort tasking</h2>
-                <p>Position flight between escortee and threats.</p>
+                <p>Position flight <strong>between</strong> escortee and threats.</p>
                 <p>Be aware of enemy's WEZ towards your escortee and adjust relative position accordingly.</p>
                 <p>If possible have two layers of defense - one aggressive and one defensive.</p>
             </section>
 
+            <section class="blank">
+                <p>
+                    This section intentionally blank
+                </p>
+            </section>
+
+        </div>
+        <div class="two-columns-column">
+            <!-- <section class="sweep">
+                <h2>Sweep tasking</h2>
+                <p class="text-subtle">
+                    This section intentionally blank
+                </p>
+            </section> -->
+
+            <section class="tips">
+                <h2>Tips</h2>
+                <p>Keep gameplans, timelines and sorting <strong>simple</strong></p>
+                <p>Maintain sufficient airspeed for maneuvering and quick reactions. Suggest M 0.8+</p>
+                <p>Use <strong>targeting pod</strong> (and your eyes!) to gather situational awareness, <strong>especially</strong> when flying cover behind a shooter. Of interest: enemy <strong>shots</strong>, <strong>maneuvers</strong> and <strong>splashes</strong></p>
+                <p>Use <strong>jammer</strong> to your advantage</p>
+                <p>Prefer sorting targets using south/west/east/north and target altitudes</p>
+                <p>Avoid sorting targets using left/right/front/back, since it tends to only work in the start of an engagement</p>
+                <p>When confused or having low situational awareness, <strong>disengage immediately</strong> and fly defensive maneuvers towards friendly airspace</p>
+            </section>
+
             <section class="maths">
                 <h2>Racetrack help</h2>
+                    <h3>Standard 20 NM trail racetrack</h3>
                     <dl>
                         <div>
-                            <dt>20 NM trail</dt>
+                            <dt>Turn when</dt>
                             <span class="dots"></span>
-                            <dd>Turn when yardstick @<strong>12 NM</strong></dd>
+                            <dd>yardstick shows <strong>12 NM</strong></dd>
+                        </div>
+                        <div>
+                            <dt>Fly legs</dt>
+                            <span class="dots"></span>
+                            <dd><strong>8 NM</strong> long</dd>
                         </div>
                     </dl>
-                    <p>Remember to synchronize speed and bank angles. Use reference headings. If possible, use markpoints and course line to assist with racetrack position keeping.</p>
+
+                    <p>Remember to synchronize <strong>speed</strong> and <strong>bank angles</strong>. Use <strong>reference headings</strong>. If possible, use <strong>markpoints</strong> and <strong>course line</strong> to assist with racetrack position keeping.</p>
                     <p>Racetrack setup technique 1: Arrive on station in close formation, make 360 for separation.</p>
                     <p>Racetrack setup technique 2: Make 360 or dogleg for separation, before arriving at destination.</p>
-                    <p>Avoid reducing speed to create separation as it increase trailer's reaction time if situation turns hostile.</p>
+                    <p><strong>Avoid reducing speed to create separation</strong> as it increases trailer's reaction time if situation turns hostile.</p>
             </section>
 
             <section class="brevity">
@@ -104,12 +126,6 @@
                 <p><span>2</span>"Two"</p>
                 <p><span>3</span>"Three"</p>
                 <p><span>4</span>"Four"</p>
-            </section>
-
-            <section class="blank">
-                <p>
-                    This section intentionally blank
-                </p>
             </section>
         </div>
     </div>

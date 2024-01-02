@@ -6,8 +6,9 @@ html {
     --background-color: #111;
     --heading-color-main: #f9f9f9;
     --heading-color-secondary: #00ab44;
-    --text-color: #d9ead3;
-    --text-color-subtle: #b9cab3;
+    --text-color: hsl(50, 46%, 90%);
+    --text-color-subtle: hsl(50, 46%, 58%);
+    --text-color-bright: hsl(50, 46%, 66%);
     --divider-color: #57BA86;
     --backround-overflow: -6px;
     --section-separation: 4px;
@@ -36,7 +37,7 @@ h1:not(:first-child), h2:not(:first-child), h3:not(:first-child) {
 }
 
 h1 {
-    font-size: 1.3rem;
+    font-size: 1.25rem;
     font-weight: 600;
     text-transform: uppercase;
     color: var(--heading-color-main);
@@ -54,14 +55,20 @@ h3 {
 }
 
 p, pre {
-    font-size: 1.0rem;
-    font-weight: 400;
-    line-height: 1.0rem;
-    color: var(--text-color);
+    font-size: 0.9rem;
+    font-weight: 300;
+    line-height: 0.9rem;
+    /* color: var(--text-color); */
 }
 p.detail {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
 }
+
+p strong {
+    font-weight: 600;
+    color: var(--text-color-bright);
+}
+
 pre {
     font-family: unset;
     white-space: pre-wrap;
